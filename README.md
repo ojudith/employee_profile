@@ -1,4 +1,4 @@
-# makeup_site
+# EmployeeDirectory_site
 
 ## Project setup
 ```
