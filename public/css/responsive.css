@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Lato|Montserrat|Ubuntu');
+
+
+@media (max-width: 370px) {
+    .showcase-body h1 {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 130px;
+        color: #fff;
+        font-size: 24px;
+    }
+
+    .showcase-body p {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+    }
+
+
+
+}
+
+@media (max-width: 768px) {
+    .nav-item {
+        padding: 2px 0;
+        font-size: 16px;
+        margin-bottom: 8px;
+        border-bottom: 1px solid #f4f4f4;
+    }
+
+    .menu-toogle {
+        display: block;
+    }
+
+    .menu-close {
+        display: none;
+
+    }
+
+    .about-banner p {
+        padding: 25px;
+        word-spacing: 2px;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        font-family: Dosis,
+            "sans-seriff";
+    }
+
+    .product-description p {
+        font-size: 16px;
+        font-family: Dosis,
+            "sans-seriff";
+    }
+
+    .product-description>ul>li {
+        list-style-type: none;
+        font-size: 16px;
+        font-family: Dosis,
+            "sans-seriff";
+    }
+
+    header .navbar-nav {
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: calc(100vh-50px);
+        background: #fff;
+        top: -9px;
+        left: -100%;
+        transition: 0.5s;
+        display: flex !important;
+        flex-direction: column !important;
+        position: fixed;
+    }
+
+    .navbar-out {
+        left: 0 !important;
+
+    }
+     header .navbar-nav .nav-item {
+         text-align: center;
+
+         padding: 10px 0;
+     }
+
+    header .navbar-nav .nav-item:nth-child(2) {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+   
+
+    header .navbar-nav .nav-item .nav-link a {
+        display: block;
+
+    }
+
+    .first-header {
+        display: flex;
+        width: 100%;
+        min-height: 45px;
+        flex-direction: column;
+        background-color: #8b4513;
+        color: #fff;
+    }
+
+    .first-header .header-phone {
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        padding-top: 10px;
+        padding-right: 5px;
+        margin-bottom: 0;
+        padding-bottom: 7px;
+    }
+
+    .first-header .header-socials {
+        width: 100%;
+        font-size: 14px;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 10px;
+        padding-bottom: 9px;
+    }
+
+
+
+    .showcase-body h1 {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 100px;
+        color: #fff;
+
+    }
+
+    .who {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: -30px;
+
+    }
+
+
+    .who .mission {
+        width: 80%;
+        margin: 10px auto;
+        background: #f4f4f4;
+        padding-top: 25px;
+        min-height: 200px;
+        border: none;
+        border-radius: 30px;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+            0 1px 18px 0 rgba(0, 0, 0, 0.12),
+            0 3px 5px -1px rgba(0, 0, 0, 0.3);
+    }
+
+    .who p {
+        padding: 20px;
+        color: #555;
+    }
+
+    .mission>ul>li {
+        list-style: square;
+        padding-top: 20px;
+        padding-left: 5px;
+        color: #555;
+        margin-left: 45px;
+    }
+
+    #team {
+        margin: 70px 0;
+    }
+
+    .team-members {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .member-one {
+        width: 90%;
+        margin: o auto;
+    }
+
+
+}
